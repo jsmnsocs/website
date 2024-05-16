@@ -1,0 +1,65 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    html {
+    font-family:Verdana;
+    font-size: 18px;
+    }
+    
+    #shoes {
+        width: 100%;
+        height: 100vh;
+        background:url(SHOE\ BG.jpeg) no-repeat center / cover;
+        color: rgb(255, 255, 255);
+    }
+    
+    .container {
+        width: 90%;
+        height: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    .container .sho h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+        
+    }
+    
+    .container .sho h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+        color: rgb(184, 156, 0);
+        outline-width: 10px;
+        outline-color: rgb(184, 156, 0);
+        outline-style: outset;
+    }
+    
+    .container .sho p {
+        font-size: 1.2rem;
+        max-width: 70%;
+        font-weight: bold;
+        
+    }
+    
+    .container .sho a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: rgb(255, 187, 0);
+        border-radius: 20px;
+        font-size: 1.8rem;
+        padding: 0.5em 2em;
+        margin-top: 2rem;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
